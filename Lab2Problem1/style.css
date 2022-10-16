@@ -6,7 +6,6 @@
 .col {
     flex-grow: 0.25;
     border: 1px solid black;
-
 }
 
 @media (max-width: 720px){
