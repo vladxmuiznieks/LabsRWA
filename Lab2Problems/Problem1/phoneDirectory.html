@@ -20,21 +20,33 @@
         <h1><b>Phone Directory</b></h1>
     </div>
 
-    <div class = textContainers>
-        <textarea id = "name" placeholder="Contact Name" maxlength = 20> </textarea>
-        <textarea id = "mobile" placeholder="Mobile Number" maxlength = 10> </textarea>
-        <textarea id = "email" placeholder="Email" maxlength = 40></textarea>  
-        <button id = "addContact" type="button" class="btn btn-success">Add Contact</button>
+    <div class = "formContainer">
+           <label for="cName"></label><input type="text" id="cName" class = "formFields "placeholder="Contact Name" required>
+           <label for="phone"></label><input type="text" id="phone" class = "formFields" placeholder="Phone Number" required>
+           <label for="email"></label><input type="text" id="email" class = "formFields" placeholder="Email" required>
+           <button id="addContact">Add Contact</button>
 
     </div>
 
     <div class= searchBox>
-        <p><h5>Search Contact by Mobile No:</h5></p>
-        <textarea id = "search" placeholder="089"></textarea>
+        <p><h6>Search Contact by Mobile No:</h6></p>
+        <textarea id = "search" placeholder="  089"></textarea>
     </div>
 
+    <div class = dataTable>
+        <p><h5><b>Contacts Summary</b></h5></p>
+    </div>
+        
+    <div class = table>
+        <table id = "table">
+            <tr>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+    </div>
+<footer>
 
 
-
-
+</footer>
 </body>

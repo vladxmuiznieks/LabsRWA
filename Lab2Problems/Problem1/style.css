@@ -35,24 +35,20 @@
     justify-content: center;
 }
 
-.textContainers {
-    display: flex;
+.formContainer {
+    display: flex, grid;
     align-items: center;
     justify-content: center;
     justify-content: space-around;
     background-color: rgb(34, 163, 206);
     border-radius: 10px;
     outline: 5px solid rgb(13, 88, 113);
-    height:200px;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 20px;
 
     
 }
 
-
- 
 .searchBox {
     display: flex;
     align-items: center;
@@ -61,6 +57,31 @@
     margin-bottom: 20px;
     align-items: center;
     justify-content: center;
+}
+
+.dataTable {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea {
+  height: 30px;
+  resize: none;
 }
 
 
